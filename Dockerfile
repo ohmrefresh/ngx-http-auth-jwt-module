@@ -2,9 +2,9 @@ FROM centos:7
 
 LABEL maintainer="TeslaGov" email="developers@teslagov.com"
 
-ARG NGINX_VERSION=1.16.1
-ARG JANSSON_VERSION=2.10
-ARG LIBJWT_VERSION=1.9.0
+ARG NGINX_VERSION=1.8.1
+ARG JANSSON_VERSION=2.13.1
+ARG LIBJWT_VERSION=1.12.1
 
 ENV LD_LIBRARY_PATH=/usr/local/lib
 ENV PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/share/pkgconfig
